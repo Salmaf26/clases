@@ -1,5 +1,7 @@
 
-const {operacionSuma,
+
+
+/*const {operacionSuma,
        operacionResta, 
        operacionMultiplicacion, 
        operacionDivision,
@@ -29,3 +31,22 @@ operacionDivision(numero1, numero2, resultados);
 operacionPotencia(numero1, resultados);
 
 console.log(resultados);
+
+const {Carro} = require(".\clases\carroClase");
+
+const mustang = new Carro('ford', 'mustang', '2022');
+
+console.log(mustang);
+
+mustang.acelerar();*/
+
+//declarar una clase que se llame cuenta bancaria, metodo depositar, metodo para retirar
+// y metodo para mostrar el saldo actual
+const cuentaBancaria = require(".\clases\cuentaBancaria");
+
+
+const newCliente = new cuentaBancaria("Salma"); 
+console.log(newCliente);
+
+let respuesta = newCliente.retirar(100);
+
